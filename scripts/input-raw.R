@@ -1,12 +1,10 @@
 library(xlsx)
-dados <- read.xlsx("../Planilha para Estatistica VIRNA.xlsx","Normalizada")
+## Leitura da planilha
+dados.raw <- read.xlsx("../Planilha para Estatistica VIRNA.xlsx","Normalizada")
 
-dados$ASA <- ordered(dados$ASA)
-dados$Dor.Imediato <- ordered(dados$Dor.Imediato)
-dados$Dor.Tardio <- ordered(dados$Dor.Tardio)
-dados$Tempo.Cirurgia <- ordered(dados$Tempo.Cirurgia)
-dados$Tempo.Bloqueio <- ordered(dados$Tempo.Bloqueio)
+## Anomimizando ####
+# Coluna 1 é Paciente (nome)
+dados.raw <- dados.raw[-c(1)]
 
-str(dados)
-summary(dados)
-write.table(dados, "dataset/vb-dataset.dat")
+## Tabela simples
+write.table(dados.raw, "dataset/vb-dataset.dat")
