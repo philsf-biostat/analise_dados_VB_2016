@@ -73,7 +73,7 @@ t <- table(Tempo.Cirurgia, Dor.Tardio); barplot(t, beside = T, legend.text = c("
 
 ## Dor por técnica #### 26/04
 png("figuras/barplot-dor-tecnica.png")
-par(mfrow = c(2,1))
+par(mfrow = c(2,2))
 t <- table(A$Técnica, A$Dor.Imediato2); barplot(t, beside = T, legend.text = rownames(t), main = "Dor imediato x técnica anestésica", xlab = "Dor", ylab = "Frequencia")
 t <- table(A$Técnica, A$Dor.Tardio2); barplot(t, beside = T, legend.text = rownames(t), main = "Dor tardio x técnica anestésica", xlab = "Dor", ylab = "Frequencia")
 t <- table(B$Técnica, B$Dor.Imediato2); barplot(t, beside = T, legend.text = rownames(t), main = "Dor imediato x técnica anestésica", xlab = "Dor", ylab = "Frequencia")
