@@ -12,5 +12,4 @@ dev.copy(png, "tempo-longo-dor-tardio.png"); dev.off()
 par(mfrow = c(2,2))
 dev.copy(png, "tempo-dor-2x2.png"); dev.off()
 
-
-
+rm(t)
