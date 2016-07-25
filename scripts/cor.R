@@ -79,11 +79,3 @@ t <- table(A$Técnica, A$Dor.Tardio2); barplot(t, beside = T, legend.text = rown
 t <- table(B$Técnica, B$Dor.Imediato2); barplot(t, beside = T, legend.text = rownames(t), main = "Dor imediato x técnica anestésica", xlab = "Dor", ylab = "Frequencia")
 t <- table(B$Técnica, B$Dor.Tardio2); barplot(t, beside = T, legend.text = rownames(t), main = "Dor tardio x técnica anestésica", xlab = "Dor", ylab = "Frequencia")
 dev.off()
-
-
-
-
-## teste com variável ordinal ####
-# variável assume valores 1, 2 e 3, com labels descritivos
-tempo <- c(rep(1,19),rep(2,25), rep(3,6))
-tempo <- ordered(tempo, labels = c("Curto", "Medio", "Longo"))
