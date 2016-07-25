@@ -35,6 +35,8 @@ A definição atual das categorias:
 - Bloqueio.Motor.Tardio é um dado qualitativo binário
 - Opioide.Imediato é um dado qualitativo binário
 - Opioide.Tardio é um dado qualitativo binário
+- ~~Dor.Imediato2 é um dado qualitativo binário~~
+- ~~Dor.Tardio2 é um dado qualitativo binário~~
 - Dor.Imediato3 é um dado qualitativo binário
 - Dor.Tardio3 é um dado qualitativo binário
 
