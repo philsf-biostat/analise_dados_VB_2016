@@ -58,12 +58,9 @@ t <- table(A$Tempo.Cirurgia, A$Dor.Tardio2); barplot(t, beside = T, legend.text 
 t <- table(B$Tempo.Cirurgia, B$Dor.Tardio2); barplot(t, beside = T, legend.text = rownames(t), main = "B", xlab = "Tardio")
 dev.off()
 
-par(mfrow = c(1,1))
-
-par(mfrow = c(2,2))
+par(mfrow = c(2,1))
 t <- table(Tempo.Cirurgia, Dor.Imediato); barplot(t, beside = T, legend.text = c("< 2h","> 2h"), main = "tempo de cirurgia", xlab = "Dor imediato", ylab = "Frequencia")
 t <- table(Tempo.Cirurgia, Dor.Tardio); barplot(t, beside = T, legend.text = c("< 2h","> 2h"), main = "tempo de cirurgia", xlab = "Dor tardio", ylab = "Frequencia")
-
 
 ## Dor por técnica #### 26/04
 png("figuras/barplot-dor-tecnica.png")
