@@ -50,16 +50,21 @@ O link de cada release será disponibilizado assim que ele ficar pronto.
 
 Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) link(s) abaixo:
 
-- v0.7 (download) - Rascunho inicial. Versão **incompleta**.
-- v0.8 (download) - Padronização dos dados. Versão **incompleta**.
-- v0.9 (download) - Associação de dados categóricos. **Versão completa**.
-- v0.10.1 (download) - Dados corrigidos, refazer associação dos dados
-- v0.11 (download) - Dados corrigidos, refazer descrição dos dados
-- v1.0 (download) - Versão final da análise
+- v0.9 (download) - Dados originais, análises prontas.
+- v0.11 (download) - Dados corrigidos, análises refeitas.
+- v1.0 (download) - Versão final da análise, relatório
 
 [Todos os releases][].
 
 [Todos os releases]: releases
+
+## Relatório
+
+Todas as informações descritas abaixo estão sumarizadas no relatório.
+Este inclui uma sugestão de texto descrevendo a metodologia, e sugestões resumidas de descrição sintética dos resultados analisados.
+
+- Relatório (formato PDF)
+- Relatório (formato Word)
 
 ## Resultados brutos
 
