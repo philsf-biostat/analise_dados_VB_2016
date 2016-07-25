@@ -8,3 +8,4 @@ dados.raw <- dados.raw[-c(1)]
 
 ## Tabela simples
 write.table(dados.raw, "dataset/vb-dataset.dat")
+rm(dados.raw)
