@@ -50,13 +50,15 @@ O link de cada release será disponibilizado assim que ele ficar pronto.
 
 Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) link(s) abaixo:
 
-- v0.9 (download) - Dados originais, análises prontas.
+- [v0.9][] ([download][download-v0.9]) - Dados originais, análises prontas.
 - v0.11 (download) - Dados corrigidos, análises refeitas.
 - v1.0 (download) - Versão final da análise, relatório
 
 [Todos os releases][].
 
-[Todos os releases]: releases
+[v0.9]: https://github.com/philsf-biostat/analise_dados_VB_2016/releases/tag/v0.9
+[download-v0.9]: https://github.com/philsf-biostat/analise_dados_VB_2016/archive/v0.9.zip
+[Todos os releases]: https://github.com/philsf-biostat/analise_dados_VB_2016/releases
 
 ## Relatório
 
