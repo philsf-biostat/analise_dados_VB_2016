@@ -59,14 +59,20 @@ Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) l
 
 [Todos os releases]: releases
 
-## Relatório
-
 ## Resultados brutos
 
 ### Estatísticas descritivas
 
 ### Figuras
 
+Figuras descritivas das variáveis.
+
 ### Tabelas de contingência
 
-### Testes de significância
+Tabelas de associação e p-valores dos testes de independência.
+
+- Tabelas TXT
+- Independência
+
+[Tabelas TXT]: resultados/tc.txt
+[Independência]: resultados/diferencas-tc.md
