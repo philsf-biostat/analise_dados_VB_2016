@@ -33,26 +33,20 @@ t <- table(Técnica, Dor.Imediato2); barplot(t, beside = T, legend.text = rownam
 t <- table(Técnica, Dor.Tardio); barplot(t, beside = T, legend.text = rownames(t), main = "Dor tardio x técnica anestésica", xlab = "Dor", ylab = "Frequencia")
 t <- table(Técnica, Dor.Tardio2); barplot(t, beside = T, legend.text = rownames(t), main = "Dor tardio x técnica anestésica", xlab = "Dor", ylab = "Frequencia")
 
-
-# t <- table(Dor.Tardio, Dor.Imediato); barplot(t, beside = T, legend.text = rownames(t), main = "Dor imediato x tempo de bloqueio")
-
-A <- dados[Técnica == "A",]
-B <- dados[Técnica == "B",]
-
 png("figuras/boxplot-tempos_dor.png")
 par(mfrow = c(2,2))
-boxplot(Dor.Imediato ~ Tempo.Cirurgia, data = A, xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "A")
-boxplot(Dor.Imediato ~ Tempo.Bloqueio, data = A, xlab = "Tempo de bloqueio", ylab = "Dor tardio", main = "A")
-boxplot(Dor.Imediato ~ Tempo.Cirurgia, data = B, xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "B")
-boxplot(Dor.Imediato ~ Tempo.Bloqueio, data = B, xlab = "Tempo de bloqueio", ylab = "Dor tardio", main = "B")
+boxplot(Dor.Imediato ~ Tempo.Cirurgia, subset = Técnica == "A", xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "A")
+boxplot(Dor.Imediato ~ Tempo.Bloqueio, subset = Técnica == "A", xlab = "Tempo de bloqueio", ylab = "Dor tardio", main = "A")
+boxplot(Dor.Imediato ~ Tempo.Cirurgia, subset = Técnica == "B", xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "B")
+boxplot(Dor.Imediato ~ Tempo.Bloqueio, subset = Técnica == "B", xlab = "Tempo de bloqueio", ylab = "Dor tardio", main = "B")
 dev.off()
 
 png("figuras/boxplot-tempos_dor.png")
 par(mfrow = c(2,2))
-boxplot(Dor.Imediato2 ~ Tempo.Cirurgia, data = A, xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "A")
-boxplot(Dor.Imediato2 ~ Tempo.Cirurgia, data = B, xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "B")
-boxplot(Dor.Tardio2 ~ Tempo.Cirurgia, data = A, xlab = "Tempo de cirurgia", ylab = "Dor tardio", main = "A")
-boxplot(Dor.Tardio2 ~ Tempo.Cirurgia, data = B, xlab = "Tempo de cirurgia", ylab = "Dor tardio", main = "B")
+boxplot(Dor.Imediato2 ~ Tempo.Cirurgia, subset = Técnica == "A", xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "A")
+boxplot(Dor.Imediato2 ~ Tempo.Cirurgia, subset = Técnica == "B", xlab = "Tempo de cirurgia", ylab = "Dor imediato", main = "B")
+boxplot(Dor.Tardio2 ~ Tempo.Cirurgia, subset = Técnica == "A", xlab = "Tempo de cirurgia", ylab = "Dor tardio", main = "A")
+boxplot(Dor.Tardio2 ~ Tempo.Cirurgia, subset = Técnica == "B", xlab = "Tempo de cirurgia", ylab = "Dor tardio", main = "B")
 dev.off()
 
 ## tempo x dor x grupo (26/4)
