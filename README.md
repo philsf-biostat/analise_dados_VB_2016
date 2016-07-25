@@ -22,6 +22,24 @@ Os dados brutos **não serão** disponibilizados neste repositório, apenas as f
 
 ## Características dos dados
 
+Os pacientes foram submetidos a 2 grupos de tratamento anestésico (A e B).
+Recentemente, algumas variáveis foram re-categorizadas, para simplificar a interpretação, exibição dos resultados e escrita.
+A definição atual das categorias:
+
+- Sexo é um dado qualitativo binário
+- IMC é um dado quantitativo
+- ASA é um dado qualitativo ordinal
+- Tempo.Cirurgia é um dado qualitativo ordinal
+- Tempo.Bloqueio é um dado qualitativo ordinal
+- Bloqueio.Motor.Imediato é um dado qualitativo binário
+- Bloqueio.Motor.Tardio é um dado qualitativo binário
+- Opioide.Imediato é um dado qualitativo binário
+- Opioide.Tardio é um dado qualitativo binário
+- Dor.Imediato3 é um dado qualitativo binário
+- Dor.Tardio3 é um dado qualitativo binário
+
+Deve-se explicitar o n de cada grupo de tratamento, classificando assim cada categoria.
+
 ## Releases
 
 ## Relatório
