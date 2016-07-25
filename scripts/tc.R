@@ -26,5 +26,8 @@ fisher.test(table(Dor.Tardio2, Técnica))
 table(Técnica, Dor.Imediato3, Tempo.Cirurgia)
 table(Técnica, Dor.Tardio3, Tempo.Cirurgia)
 
+addmargins(table(ASA, Técnica))
+fisher.test(table(ASA, Técnica))
+
 # cleanup ####
 source("scripts/cleanup.R")
