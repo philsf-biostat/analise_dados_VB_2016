@@ -65,7 +65,14 @@ Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) l
 
 ### Figuras
 
-Figuras descritivas das variáveis.
+Gráficos de barra, cruzando os principais dados, por grupo de tratamento.
+
+- Tempo de cirurgia <2h x Dor T2
+- Tempo de cirurgia <2h x Dor T12
+- Tempo de cirurgia >2h x Dor T2
+- Tempo de cirurgia >2h x Dor T12
+
+As figuras não contém título indicativo, para permitir a mestranda a incluir seu próprio título e legenda. O p-valor do teste de Fisher está incluído na figura.
 
 ### Tabelas de contingência
 
