@@ -1,3 +1,7 @@
+# data input ####
+source("scripts/input.R")
+
+# tabelas de contingencia e fisher ####
 addmargins(table(Tempo.Bloqueio, Técnica))
 fisher.test(table(Tempo.Bloqueio, Técnica))
 addmargins(table(Tempo.Cirurgia, Técnica))
@@ -21,3 +25,6 @@ fisher.test(table(Dor.Tardio2, Técnica))
 
 table(Técnica, Dor.Imediato3, Tempo.Cirurgia)
 table(Técnica, Dor.Tardio3, Tempo.Cirurgia)
+
+# cleanup ####
+source("scripts/cleanup.R")
