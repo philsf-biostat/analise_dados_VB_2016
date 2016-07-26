@@ -15,6 +15,8 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
  **Longo**   0   6 
 -------------------
 
+p-value = 0.0001108
+
 ## Tempo de cirurgia por grupo
 
 -------------------
@@ -24,6 +26,8 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
 
  **Longo**   2   7 
 -------------------
+
+p-value = 0.2644
 
 ## Bloqueio motor (imediato) por grupo
 
@@ -35,6 +39,10 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
  **Sim**  17   0 
 -----------------
 
+p-value = 1.55e-10
+
+p-valor < 0.0001
+
 ## Uso de opióide (imediato) por grupo
 
 -----------------
@@ -44,6 +52,8 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
 
  **Sim**   1   6 
 -----------------
+
+p-value = 0.2108
 
 ## Bloqueio motor (tardio) por grupo
 
@@ -55,6 +65,10 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
  **Sim**  11   0 
 -----------------
 
+p-value = 7.446e-06
+
+p-value < 0.0001
+
 ## Uso de opióide (tardio) por grupo
 
 -----------------
@@ -64,6 +78,8 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
 
  **Sim**   2   0 
 -----------------
+
+p-value = 0.1727
 
 ## ASA por grupo
 
@@ -76,6 +92,8 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
 
  **III**   0   0 
 -----------------
+
+p-value = 0.3468
 
 ## Tempo de cirurgia Curto (<2h)
 
