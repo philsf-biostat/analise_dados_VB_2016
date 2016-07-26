@@ -72,6 +72,16 @@ Este inclui uma sugestão de texto descrevendo a metodologia, e sugestões resum
 
 ### Estatísticas descritivas
 
+### Tabelas de contingência
+
+Tabelas de associação e p-valores dos testes de independência.
+
+- Tabelas TXT
+- Independência
+
+[Tabelas TXT]: resultados/tc.txt
+[Independência]: resultados/diferencas-tc.md
+
 ### Figuras
 
 Gráficos de barra, cruzando os principais dados, por grupo de tratamento.
@@ -83,12 +93,3 @@ Gráficos de barra, cruzando os principais dados, por grupo de tratamento.
 
 As figuras não contém título indicativo, para permitir a mestranda a incluir seu próprio título e legenda. O p-valor do teste de Fisher está incluído na figura.
 
-### Tabelas de contingência
-
-Tabelas de associação e p-valores dos testes de independência.
-
-- Tabelas TXT
-- Independência
-
-[Tabelas TXT]: resultados/tc.txt
-[Independência]: resultados/diferencas-tc.md
