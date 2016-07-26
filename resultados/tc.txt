@@ -39,3 +39,12 @@ Bloqueio.Motor.Tardio  A  B
 Opioide.Tardio  A  B
            Não 17 26
            Sim  2  0
+
+## ASA por grupo
+
+     Técnica
+ASA    A  B
+  I    8  7
+  II  11 19
+  III  0  0
+

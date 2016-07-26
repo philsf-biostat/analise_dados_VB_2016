@@ -65,6 +65,18 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
  **Sim**   2   0 
 -----------------
 
+## ASA por grupo
+
+-----------------
+ &nbsp;    A   B 
+--------- --- ---
+  **I**    8   7 
+
+ **II**   11  19 
+
+ **III**   0   0 
+-----------------
+
 ## Tempo de cirurgia Curto (<2h)
 
 ### Percepção de dor (imediato) por grupo
