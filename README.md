@@ -84,6 +84,7 @@ Gráficos de barra, cruzando os principais dados, por grupo de tratamento.
 - [Tempo de cirurgia <2h x Dor T12][]
 - [Tempo de cirurgia >2h x Dor T2][]
 - [Tempo de cirurgia >2h x Dor T12][]
+- [Composição][] das 4 figuras acima.
 
 As figuras não contém título indicativo, para permitir a mestranda a incluir seu próprio título e legenda.
 O p-valor do teste de Fisher está incluído na figura.
@@ -92,3 +93,4 @@ O p-valor do teste de Fisher está incluído na figura.
 [Tempo de cirurgia <2h x Dor T12]: figuras/tempo-curto-dor-tardio.png?raw=true
 [Tempo de cirurgia >2h x Dor T2]: figuras/tempo-longo-dor-imediato.png?raw=true
 [Tempo de cirurgia >2h x Dor T12]: figuras/tempo-longo-dor-tardio.png?raw=true
+[Composição]: figuras/tempo-dor-2x2.png?raw=true
