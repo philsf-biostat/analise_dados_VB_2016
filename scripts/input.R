@@ -11,7 +11,4 @@ dados$Dor.Tardio3 <- factor(dados$Dor.Tardio3)
 dados$Tempo.Cirurgia <- ordered(dados$Tempo.Cirurgia, levels = c("Curto", "Longo"))
 dados$Tempo.Bloqueio <- ordered(dados$Tempo.Bloqueio, levels = c("Curto", "Médio", "Longo"))
 
-str(dados)
-summary(dados)
-
 attach(dados)
