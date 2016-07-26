@@ -10,11 +10,15 @@ Tempo.Bloqueio  A  B
          Médio  6 17
          Longo  0  6
 
+p-value = 0.0001108
+
 ## Tempo de cirurgia por grupo
               Técnica
 Tempo.Cirurgia  A  B
          Curto 17 19
          Longo  2  7
+
+p-value = 0.2644
 
 ## Bloqueio motor (imediato) por grupo
                        Técnica
@@ -22,11 +26,16 @@ Bloqueio.Motor.Imediato  A  B
                     Não  2 26
                     Sim 17  0
 
+p-value = 1.55e-10
+p-valor < 0.0001
+
 ## Uso de opióide (imediato) por grupo
                 Técnica
 Opioide.Imediato  A  B
              Não 18 20
              Sim  1  6
+
+p-value = 0.2108
 
 ## Bloqueio motor (tardio) por grupo
                      Técnica
@@ -34,11 +43,16 @@ Bloqueio.Motor.Tardio  A  B
                   Não  8 26
                   Sim 11  0
 
+p-value = 7.446e-06
+p-value < 0.0001
+
 ## Uso de opióide (tardio) por grupo
               Técnica
 Opioide.Tardio  A  B
            Não 17 26
            Sim  2  0
+
+p-value = 0.1727
 
 ## ASA por grupo
 
@@ -47,4 +61,6 @@ ASA    A  B
   I    8  7
   II  11 19
   III  0  0
+
+p-value = 0.3468
 
