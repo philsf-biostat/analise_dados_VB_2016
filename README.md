@@ -60,14 +60,6 @@ Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) l
 [download-v0.9]: https://github.com/philsf-biostat/analise_dados_VB_2016/archive/v0.9.zip
 [Todos os releases]: https://github.com/philsf-biostat/analise_dados_VB_2016/releases
 
-## Relatório
-
-Todas as informações descritas abaixo estão sumarizadas no relatório.
-Este inclui uma sugestão de texto descrevendo a metodologia, e sugestões resumidas de descrição sintética dos resultados analisados.
-
-- Relatório (formato PDF)
-- Relatório (formato Word)
-
 ## Resultados brutos
 
 ### Estatísticas descritivas
