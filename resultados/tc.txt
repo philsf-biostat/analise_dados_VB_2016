@@ -5,44 +5,37 @@ Todas as tabelas abaixo incluem uma linha e uma coluna com os `n` totais.
 
 ## Tempo de bloqueio por grupo
               Técnica
-Tempo.Bloqueio  A  B Sum
-         Curto 13  3  16
-         Médio  6 17  23
-         Longo  0  6   6
-         Sum   19 26  45
+Tempo.Bloqueio  A  B
+         Curto 13  3
+         Médio  6 17
+         Longo  0  6
 
 ## Tempo de cirurgia por grupo
               Técnica
-Tempo.Cirurgia  A  B Sum
-         Curto 17 19  36
-         Longo  2  7   9
-         Sum   19 26  45
+Tempo.Cirurgia  A  B
+         Curto 17 19
+         Longo  2  7
 
 ## Bloqueio motor (imediato) por grupo
                        Técnica
-Bloqueio.Motor.Imediato  A  B Sum
-                    Não  2 26  28
-                    Sim 17  0  17
-                    Sum 19 26  45
+Bloqueio.Motor.Imediato  A  B
+                    Não  2 26
+                    Sim 17  0
 
 ## Uso de opióide (imediato) por grupo
                 Técnica
-Opioide.Imediato  A  B Sum
-             Não 18 20  38
-             Sim  1  6   7
-             Sum 19 26  45
-
+Opioide.Imediato  A  B
+             Não 18 20
+             Sim  1  6
 
 ## Bloqueio motor (tardio) por grupo
                      Técnica
-Bloqueio.Motor.Tardio  A  B Sum
-                  Não  8 26  34
-                  Sim 11  0  11
-                  Sum 19 26  45
+Bloqueio.Motor.Tardio  A  B
+                  Não  8 26
+                  Sim 11  0
 
 ## Uso de opióide (tardio) por grupo
               Técnica
-Opioide.Tardio  A  B Sum
-           Não 17 26  43
-           Sim  2  0   2
-           Sum 19 26  45
+Opioide.Tardio  A  B
+           Não 17 26
+           Sim  2  0
