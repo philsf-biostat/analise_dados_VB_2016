@@ -76,8 +76,8 @@ Este inclui uma sugestão de texto descrevendo a metodologia, e sugestões resum
 
 Tabelas de associação e p-valores dos testes de independência.
 
-- [Tabelas de associação][]
-  - Formato [Word][Tabelas Word]
+- [Tabelas de associação][] (visualizar online)
+  - Download no formato [Word][Tabelas Word]
   - Formato [TXT][Tabelas TXT]
 
 [Tabelas de associação]: resultados/tc.md
